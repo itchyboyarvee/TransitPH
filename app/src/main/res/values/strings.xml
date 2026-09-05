@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TransitPH</string>
+    <string name="app_tagline">Your smarter way to commute around CALABARZON</string>
+    <string name="system_version">30% System Implementation — Midterm Examination</string>
+    
+    <!-- Auth Strings -->
+    <string name="welcome_back">Welcome to TransitPH</string>
+    <string name="sign_in_subtitle">Log in to find routes, check terminals, and save commutes</string>
+    <string name="login_button">LOGIN</string>
+    <string name="register_button">CREATE ACCOUNT</string>
+    <string name="back_to_login">BACK TO LOGIN</string>
+    <string name="no_account_prompt">Don\'t have an account?</string>
+    <string name="register_prompt">REGISTER</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="full_name_hint">Full Name</string>
+    
+    <!-- Validation Errors -->
+    <string name="error_all_fields_required">All fields are required.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_password_length">Password must be at least 6 characters long.</string>
+    <string name="error_password_match">Passwords do not match.</string>
+    <string name="error_email_exists">An account with this email already exists.</string>
+    <string name="error_invalid_credentials">Invalid email or password.</string>
+    <string name="account_created_success">Account created successfully.</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_routes">Routes</string>
+    <string name="nav_terminals">Terminals</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home & Search -->
+    <string name="where_do_you_want_to_go">WHERE DO YOU WANT TO GO?</string>
+    <string name="from_label">FROM</string>
+    <string name="to_label">TO</string>
+    <string name="from_hint">Current Location / Select Location</string>
+    <string name="to_hint">Enter Destination</string>
+    <string name="find_route">FIND ROUTE</string>
+    <string name="quick_access">QUICK ACCESS</string>
+    
+    <!-- Route Finder & Results -->
+    <string name="route_results_title">Matching Routes</string>
+    <string name="route_details_title">ROUTE DETAILS</string>
+    <string name="save_route">SAVE ROUTE</string>
+    <string name="route_saved_success">Route saved successfully.</string>
+    <string name="error_empty_route">Please enter both your starting point and destination.</string>
+    <string name="error_no_route">No available route was found.</string>
+    <string name="error_duplicate_saved_route">This route is already saved.</string>
+    
+    <!-- Assisted Navigation -->
+    <string name="assisted_nav_title">Assisted Navigation</string>
+    <string name="assisted_nav_subtitle">Commuter guidance &amp; phrases for local transit</string>
+    <string name="select_language">Language</string>
+    
+    <!-- Terminals -->
+    <string name="terminals_title">Jeepney &amp; Transit Terminals</string>
+    <string name="search_terminals_hint">Search terminals, cities, provinces...</string>
+    <string name="view_terminal">VIEW TERMINAL</string>
+    <string name="navigate_to_terminal">NAVIGATE TO TERMINAL</string>
+    
+    <!-- Admin -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="manage_terminals">Manage Terminals</string>
+    <string name="manage_routes">Manage Routes</string>
+    <string name="add_terminal">+ ADD TERMINAL</string>
+    <string name="add_route">+ ADD ROUTE</string>
+    
+    <!-- Demo Notice -->
+    <string name="demo_notice_banner">CALABARZON Sample Demo Data (Midterm 30% Scope)</string>
+</resources>

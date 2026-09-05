@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route Name *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dr_name"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="e.g. Calamba – Santa Rosa (Via Balibago)"
+            android:inputType="textCapWords"
+            android:paddingHorizontal="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Origin *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dr_origin"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="e.g. Calamba"
+            android:inputType="textCapWords"
+            android:paddingHorizontal="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Destination *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dr_destination"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="e.g. Santa Rosa"
+            android:inputType="textCapWords"
+            android:paddingHorizontal="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Associated Terminal *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp_dr_terminal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Transport Mode *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp_dr_transport"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fare (PHP ₱) *"
+                    android:textColor="@color/text_primary"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_dr_fare"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:hint="30.00"
+                    android:inputType="numberDecimal"
+                    android:paddingHorizontal="10dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Est. Minutes *"
+                    android:textColor="@color/text_primary"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_dr_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:hint="45"
+                    android:inputType="number"
+                    android:paddingHorizontal="10dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Description"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dr_desc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:gravity="top|start"
+            android:hint="Waypoints, highway route details..."
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

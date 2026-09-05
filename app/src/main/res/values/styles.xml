@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="Theme.TransitPH" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/surface</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.TransitPH.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.TransitPH.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Card Styling -->
+    <style name="TransitCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+
+    <!-- Button Primary -->
+    <style name="TransitButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+{
+  "name": "TransitPH",
+  "description": "An Integrated Multi-Modal Transit Navigation and Commuter Safety System for CALABARZON (30% Midterm Implementation)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

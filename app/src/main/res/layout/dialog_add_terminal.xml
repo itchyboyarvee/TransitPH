@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminal Name *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dt_name"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="e.g. Calamba Central Terminal"
+            android:inputType="textCapWords"
+            android:paddingHorizontal="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="City / Municipality *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dt_city"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="e.g. Calamba"
+            android:inputType="textCapWords"
+            android:paddingHorizontal="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Province *"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dt_province"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:hint="e.g. Laguna"
+            android:inputType="textCapWords"
+            android:paddingHorizontal="10dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude"
+                    android:textColor="@color/text_primary"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_dt_lat"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:hint="14.2056"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:paddingHorizontal="10dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude"
+                    android:textColor="@color/text_primary"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_dt_lng"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:hint="121.1558"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:paddingHorizontal="10dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Description / Notes"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_dt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:gravity="top|start"
+            android:hint="Terminal amenities, operating hours, etc."
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

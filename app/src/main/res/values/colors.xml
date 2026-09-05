@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary Colors -->
+    <color name="primary">#0284C7</color>
+    <color name="primary_dark">#0369A1</color>
+    <color name="primary_light">#E0F2FE</color>
+    <color name="accent">#0EA5E9</color>
+    
+    <!-- Secondary & Transport Modes -->
+    <color name="jeepney_color">#D97706</color>
+    <color name="jeepney_bg">#FEF3C7</color>
+    <color name="bus_color">#2563EB</color>
+    <color name="bus_bg">#DBEAFE</color>
+    <color name="walk_color">#059669</color>
+    <color name="walk_bg">#D1FAE5</color>
+    
+    <!-- Neutrals & Backgrounds -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="border">#E2E8F0</color>
+    <color name="divider">#CBD5E1</color>
+    
+    <!-- Status & Alerts -->
+    <color name="success">#10B981</color>
+    <color name="danger">#EF4444</color>
+    <color name="warning">#F59E0B</color>
+    <color name="admin_badge">#7C3AED</color>
+    <color name="admin_badge_bg">#EDE9FE</color>
+</resources>
